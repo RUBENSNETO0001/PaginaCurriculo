@@ -30,22 +30,23 @@
 
 
         if (varA != 0) {
+
             let delta = varB * 2 - 4 * varA * varC;
             let delta_positivo = Math.abs(delta)
 
-        if (delta == 0) {
+            if (delta == 0) {
                 let x1 = - varB / (2 * varA);
 
-                alert("resultado da X1: "+ x1);
+                alert("resultado da X1: " + x1);
             }
             else {
-                
+
                 let raiz = Math.sqrt(delta_positivo)
 
                 var x1 = - varB - raiz / 2 * varA
-                var x2 = - varB - raiz/ 2 * varA
+                var x2 = - varB - raiz / 2 * varA
 
-                alert("As raízes da equação são: "+ x1 + " e "+ x1)
+                alert("As raízes da equação são: " + x1 + " e " + x1)
             }
         }
         else {
