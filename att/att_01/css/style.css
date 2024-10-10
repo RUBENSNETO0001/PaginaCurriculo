@@ -1,0 +1,33 @@
+@font-face {
+    font-family:'minhafonte';
+    src: url("../assents/autumn_in_september/Autumn\ in\ September.ttf");
+}
+*{
+    margin: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+/*header*/
+.header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.linkspags{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.link{
+    text-decoration: none;
+    align-items: center;
+    transition: 1s;
+}
+.link:hover{
+    color: red;
+    position: relative;
+    top: -5px;
+}
+
+/*header*/
