@@ -56,6 +56,21 @@
 /*header*/
 
 /*main*/
-#imagemTransicao{
- width: 100%;
+#imagemTransicao {
+    width: 100%;
+    height: 639px;
+}
+.autor{
+    background-color: #000000;
+    max-width: 900px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 30px;
+}
+#imgAutor{
+    width: 300px;
+    padding: 100px;
 }
