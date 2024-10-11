@@ -1,10 +1,9 @@
 @font-face {
-    font-family:'minhafonte';
-    src: url("../assents/autumn_in_september/Autumn\ in\ September.ttf");
+    font-family: 'fontEscrita01';
+    src: url("../assents//fonts/rustic_barn/Rustic\ Barn.ttf");
 }
 *{
     margin: 0;
-    background-color: #ffffff;
     color: #000000;
 }
 /*header*/
@@ -12,6 +11,18 @@
     display: flex;
     text-align: center;
     align-items: center;
+    color: ;
+}
+.logo{
+    font-family: fontEscrita01;
+    font-size: 30px;
+    display: flex;
+}
+#imagemLogo{
+    position: relative;
+    top: -10px;
+    width: 100px;
+    height: 80px;
 }
 .linkspags{
     position: absolute;
@@ -28,6 +39,8 @@
     color: red;
     position: relative;
     top: -5px;
+    flex: 4;
+    font-size: 20px;
 }
 
 /*header*/
