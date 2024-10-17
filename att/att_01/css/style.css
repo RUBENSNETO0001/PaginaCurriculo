@@ -55,7 +55,7 @@
 /*main*/
 #imagemTransicao {
     width: 100%;
-    max-height: 639px;
+    height: 70vh;
 }
 .autor{
     background-color: #000000;
@@ -91,7 +91,7 @@
 /*modal*/
 /* modal externo */
 /* modal de fora  */
-.modal01{
+.modal{
     display: none;
     position: fixed;
     z-index: 1;
