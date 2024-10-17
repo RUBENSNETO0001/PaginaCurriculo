@@ -6,7 +6,6 @@
 * {
     margin: 0;
 }
-
 /*header*/
 .header {
     display: flex;
@@ -52,9 +51,7 @@
     flex: 4;
     font-size: 20px;
 }
-
 /*header*/
-
 /*main*/
 #imagemTransicao {
     width: 100%;
@@ -91,4 +88,44 @@
     color: #ffffff;
     text-shadow: 1px 1px 2px #d400ff;
 }
+/*modal*/
+/* modal externo */
+/* modal de fora  */
+.modal01{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000000;
+    background-color: #000000, 0.4;
+}
+/* modal interno */
+/* modal de dentro */
+.conteinerModal{
+    background-color: #ffffff;
+    color: #000000;
+    margin: auto;
+    padding: 20px;
+    box-shadow: #d400ff;
+    max-width: 80%;
+}
+
+/*melhorar o "X" é deixa com uma animaçãozinha de leves pai*/
+.fechar{
+    color: #d400ff;
+    float: right;
+    font-size: 30px;
+    transition: 2s;
+}
+.fechar:focus, .fechar:hover{
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #d400ff;
+    cursor: pointer;
+}
+/*modal*/
 /*main*/
