@@ -29,6 +29,7 @@
     top: -15px;
     width: 80px;
     height: 60px;
+    border-radius: 20px;
 }
 
 .linkspags {
@@ -55,7 +56,7 @@
 /*main*/
 #imagemTransicao {
     width: 100%;
-    height: 70vh;
+    height: 100vh;
 }
 .autor{
     background-color: #000000;
@@ -90,6 +91,31 @@
 }
 /*modal*/
 /* modal externo */
+.butoes{
+    background-color: #000000;
+    position: relative;
+    left: 50%;
+    top: -150px;
+    transform: translateX(-50%);
+    padding: 5%;
+    padding-left: 10%;
+    border-radius: 30px;
+    max-width: 507px;
+    max-height: 10px;
+}
+.btn{
+    border: none;
+    background-color: #ffffff;
+    color: #d400ff;
+    border-radius: 20px;
+    padding: 12px;
+    transition: 1s;
+}
+.btn:hover{
+  background-color: #d400ff;
+  color: #ffffff;
+  box-shadow: 0px 0px 12px 1px #d400ff;
+}
 /* modal de fora  */
 .modal{
     display: none;

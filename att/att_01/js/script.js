@@ -1,5 +1,6 @@
+// parte dos modais
 const buttons = document.querySelectorAll(".btn");
-
+const modal = document.querySelector("#modal");
 buttons.forEach((btn, index) => {
     const modal = document.querySelector(`#modal${index}`);
     const span = document.querySelectorAll(".fechar")[index];
@@ -11,9 +12,4 @@ buttons.forEach((btn, index) => {
         modal.style.display = "none";
 
     })
-    // window.onclick = function (evento) {
-    //     if (evento.target == modal) {
-    //         modal.style.display = "none"
-    //     }
-    // }
 });
