@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'fontEscrita01';
     src: url("../assents//fonts/rustic_barn/Rustic\ Barn.ttf");
+    font-family: 'fontModel';
+    src: url("../assents/fonts/Bubbler_One\,Playfair_Display/");
 }
 
 * {
@@ -128,17 +130,30 @@
     height: 100%;
     overflow: auto;
     background-color: #000000;
-    background-color: #000000, 0.4;
+    background: url("../assents/imagem/main/gif/2c1697a144196c6ae4eb654e3f4a3db4_w200.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(30px);
 }
 /* modal interno */
 /* modal de dentro */
 .conteinerModal{
-    background-color: #ffffff;
-    color: #000000;
+    color: #ffffff;
     margin: auto;
     padding: 20px;
-    box-shadow: #d400ff;
+    box-shadow:  inset 0px 0px 27px 15px #d400ff;
     max-width: 80%;
+    border-radius: 10px;
+}
+.conteinerModalMain{
+    position: relative;
+    top: 20px;
+    color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    box-shadow:  inset 0px 0px 27px 15px #d400ff;
+    max-width: 80%;
+    border-radius: 10px;
 }
 
 /*melhorar o "X" é deixa com uma animaçãozinha de leves pai*/
@@ -146,12 +161,16 @@
     color: #d400ff;
     float: right;
     font-size: 30px;
-    transition: 2s;
+    transition: 1s;
 }
 .fechar:focus, .fechar:hover{
     color: #ffffff;
     text-shadow: 1px 1px 1px #d400ff;
     cursor: pointer;
 }
+/* texto modal */
+.texto_modal{
+    font-family: fontModel;
+}
 /*modal*/
-/*main*/
+/*main*
