@@ -6,28 +6,54 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* MAIN */
 .infor{
     position: relative;
     margin-left: 50%;
-    transform: translateX(-9%);
+    margin-top: 15%;
+    transform: translateX(-50%);
     padding: 30px;
-    background-color: rgba(0, 0, 0, o.4);
     backdrop-filter: blur(100px);
+    max-width: 200px;
+    top: 20%;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
 }
 #btn{
     width: 200px;
     position: relative;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    transition: 1s;
+}
+#btn:hover{
+    color: #d400ff;
+    background-color: black;
+    box-shadow: 0px 0px 10px 1px #d400ff;
+    border-radius: 30px;
 }
 .textLogin{
     display: flex;
+    justify-content: center;
 }
+.inputLogin{
+    border: none;
+    color: #000000;
+    border-radius: 10px;
+    padding-left: 7px;
+}
+.inforLogin:hover{
+    border: none;
+}
+
+/* FOOTER */
 .footer{
     background-color: black;
     color: #ffffff;
     text-align: center;
-    height: 50px;
+    height: 100%;
     width: 100%;
     padding-top: 40px;
     position: fixed;
