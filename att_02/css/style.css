@@ -57,5 +57,6 @@ body{
     width: 100%;
     padding-top: 40px;
     position: fixed;
-    top: 92%;
+    top: 90%;
+transform: translateY(-90%);
 }
