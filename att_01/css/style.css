@@ -3,6 +3,8 @@
     src: url("../assents//fonts/rustic_barn/Rustic\ Barn.ttf");
     font-family: 'fontModel';
     src: url("../assents/fonts/Bubbler_One\,Playfair_Display/");
+    font-family: 'fontlostDesenho';
+    src: url("../assents/fonts/lost_in_wild/Lost\ in\ Wild.otf");
 }
 
 * {
@@ -168,7 +170,9 @@ body{
     max-width: 80%;
     border-radius: 10px;
 }
-
+.artDesenho{
+    
+}
 /*melhorar o "X" é deixa com uma animaçãozinha de leves pai*/
 .fechar{
     color: #d400ff;
@@ -191,7 +195,6 @@ body{
     left: 50%;
     transform: translateX(-50%);
     border: #ffffff;
-    
 }
 
 #grifth{
@@ -201,7 +204,11 @@ body{
 .textmodal_desenho{
     text-align: center;
     font-size: 30px;
-    height: 40px;
+}
+.link_modal{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: fontlostDesenho;
 }
 /*modal*/
 /*main*

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+#headerNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logoHeader{
+    text-decoration: none;
+    color: #000000;
+}
+#voltar{
+    border: none;
+    background: #ffffff;
+}
