@@ -29,6 +29,7 @@ body{
     color: #ffffff;
     position: relative;
     top: 15px;
+    left: 15%;
 }
 
 #imagemLogo {
@@ -43,7 +44,7 @@ body{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-   
+   transition: 2s;
 }
 
 .link {
@@ -59,6 +60,18 @@ body{
     top: -5px;
     flex: 4;
     font-size: 20px;
+}
+@media(max-width: 907px){
+    .linkspags{
+        position: absolute;
+        left: 70%;
+        
+    }
+}
+@media(max-width: 675px){
+    .linkspags{
+        opacity:0%;
+    }
 }
 /*header*/
 /*main*/
@@ -150,7 +163,6 @@ body{
     backdrop-filter: blur(30px);
 }
 /* modal interno */
-
 /* modal de dentro */
 .conteinerModal{
     color: #ffffff;
@@ -170,9 +182,6 @@ body{
     max-width: 80%;
     border-radius: 10px;
 }
-.artDesenho{
-    
-}
 /*melhorar o "X" é deixa com uma animaçãozinha de leves pai*/
 .fechar{
     color: #d400ff;
@@ -190,17 +199,6 @@ body{
     font-family: fontModel;
 }
 /* img modal*/
-.imgModal{
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    border: #ffffff;
-}
-
-#grifth{
-    width: 700px;
-    height: 750px;
-}
 .textmodal_desenho{
     text-align: center;
     font-size: 30px;

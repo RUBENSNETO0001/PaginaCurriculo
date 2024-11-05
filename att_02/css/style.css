@@ -48,9 +48,6 @@ body{
     border: none;
 }
 @media (width: 853px), (height:1280){
-    body{
-        
-    }
     .infor{
         position: fixed;
         top: 20%;
