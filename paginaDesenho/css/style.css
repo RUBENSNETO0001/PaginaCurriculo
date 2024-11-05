@@ -76,3 +76,15 @@ body{
         transform: translateX(-50%);
     }
 }
+/* footer */
+.footer{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    position: relative;
+    top: 90%;
+    font-size: 1.5em;
+    height: 10%;
+}
