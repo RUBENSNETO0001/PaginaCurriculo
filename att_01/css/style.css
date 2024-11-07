@@ -145,6 +145,27 @@ body{
   color: #ffffff;
   box-shadow: 0px 0px 12px 1px #d400ff;
 }
+/* alterar a proporssão */
+@media(max-width: 505px){
+    .btn{
+        position: relative;
+        margin-left: 19%;
+        transform: translateX(-21%);
+    }
+}
+@media(max-width: 435px){
+    .btn{
+        position: relative;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+@media(max-width: 418px){
+   #imagemTransicao{
+    width: 126%;
+   }
+}
+
 /* modal de fora  */
 .modal{
     display: none;
@@ -215,4 +236,8 @@ body{
     color: #ffffff;
     display: flex;
     justify-content: center;
+}
+#textFooter{
+    position: relative;
+    top: -9vh;
 }

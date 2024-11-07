@@ -1,3 +1,4 @@
+alert("senha de acesso:\nCHAVE DE ENTRADA: user\nSENHA: 1234")
 // usei uma função, que para amim e mais rapido ser executado
 function entrar(){
     let chavedeEntrada = document.getElementById("emailNome").value;
