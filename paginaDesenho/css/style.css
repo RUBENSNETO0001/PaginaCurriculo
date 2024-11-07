@@ -1,50 +1,59 @@
-@font-face{
+@font-face {
     font-family: 'fontartifika';
     src: url("../assents/fonts/Artifika/Artifika-Regular.ttf");
 }
-*{
+
+* {
     margin: 0;
 }
-body{
+
+body {
     background: url("../assents/img/jpg/digital-lavender-natural-landscape.jpg");
     background-repeat: no-repeat;
     background-clip: border-box;
     background-position-x: center;
 }
-#headerNav{
+
+#headerNav {
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #141414;
     height: 50px;
 }
-.logo{
+
+.logo {
     position: relative;
     left: 30%;
 }
-#logoHeader{
+
+#logoHeader {
     text-decoration: none;
     color: #ffffff;
     font-family: 'fontartifika';
 }
-#voltar{
+
+#voltar {
     border: none;
     background: #ffffff;
     border-radius: 20px;
     transition: 2s;
 }
-#voltar:hover{
+
+#voltar:hover {
     background: black;
     color: #d400ff;
     box-shadow: #d400ff 0px 0px 5px 0px;
 }
+
 /* main */
-.imgDesenho{
+.imgDesenho {
     max-width: 250px;
     max-height: 300px;
 }
-.main{
-    box-shadow:  inset 0px 0px 27px 15px #d400ff;
+
+.main {
+    box-shadow: inset 0px 0px 27px 15px #d400ff;
     background-color: #ffffff;
     position: absolute;
     margin-left: 50%;
@@ -52,39 +61,52 @@ body{
     margin-top: 10%;
     display: flex;
 }
-.cambackground{
+
+.cambackground {
     padding: 30px;
 }
-.textDesenho{
+
+.textDesenho {
     text-align: center;
     color: #d400ff;
-    text-shadow:#000000 0px 0px 10px;
+    text-shadow: #000000 0px 0px 10px;
     font-family: 'fontartifika';
 }
-@media (max-width: 960px){
-    .main{
-        box-shadow:  inset 0px 0px 27px 15px #d400ff;
+
+@media (max-width: 960px) {
+    .main {
+        box-shadow: inset 0px 0px 27px 15px #d400ff;
         position: absolute;
         margin-left: 50%;
         transform: translateX(-50%);
         top: 10%;
         display: flow;
     }
-    .imgDesenho{
+
+    .imgDesenho {
         position: relative;
         left: 50%;
         transform: translateX(-50%);
     }
 }
+
 /* footer */
-.footer{
+.footer {
     background-color: black;
     color: #ffffff;
     text-align: center;
-    width: 100%;
-    padding-top: 20px;
+    width: 30%;
+    border-radius: 30px;
+    padding-top: 10px;
     position: relative;
     top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 1.5em;
-    height: 10%;
+}
+
+@media(max-width: 540px) {
+    .footer {
+        display: none;
+    }
 }
