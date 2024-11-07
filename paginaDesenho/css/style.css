@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'fontartifika';
     src: url("../assents/fonts/Artifika/Artifika-Regular.ttf");
+    font-family: 'fontCosmicDream';
+    src: url("../assents/fonts/satine/Satine.ttf");
 }
 
 * {
@@ -73,7 +75,7 @@ body {
     font-family: 'fontartifika';
 }
 
-@media (max-width: 960px) {
+@media (max-width: 777px) {
     .main {
         box-shadow: inset 0px 0px 27px 15px #d400ff;
         position: absolute;
@@ -103,9 +105,10 @@ body {
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.5em;
+    font-family: 'fontCosmicDream';
 }
 
-@media(max-width: 540px) {
+@media(max-width: 828px) {
     .footer {
         display: none;
     }
