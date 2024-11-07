@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+#headerNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #141414;
+    height: 50px;
+}
+
+.logo {
+    position: relative;
+    left: 30%;
+}
+
+#logoHeader {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'fontartifika';
+}
+
+#voltar {
+    border: none;
+    background: #ffffff;
+    border-radius: 20px;
+    transition: 2s;
+}
+
+#voltar:hover {
+    background: black;
+    color: #d400ff;
+    box-shadow: #d400ff 0px 0px 5px 0px;
+}

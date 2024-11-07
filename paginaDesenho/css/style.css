@@ -10,9 +10,9 @@
 }
 
 body {
-    background: url("../assents/img/jpg/digital-lavender-natural-landscape.jpg");
+    background: url("../assents/img/jpg/49fa8c39c9d8d5b528e098578bc3fddff28478c3_high.png");
     background-repeat: no-repeat;
-    background-clip: border-box;
+    background-size: cover;
     background-position-x: center;
 }
 
@@ -20,7 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #141414;
+    background-color: #000000;
     height: 50px;
 }
 
@@ -56,7 +56,7 @@ body {
 
 .main {
     box-shadow: inset 0px 0px 27px 15px #d400ff;
-    background-color: #ffffff;
+    backdrop-filter: blur(30px);
     position: absolute;
     margin-left: 50%;
     transform: translateX(-50%);
