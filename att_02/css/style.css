@@ -5,6 +5,7 @@ body{
     background-image: url("../assents/jpeg/floresta-roxa-de-fantasia-com-um-caminho-no-meio_900706-10053-transformed.jpeg");
     background-repeat: no-repeat;
     background-position-x: center;
+    background-size: cover;
 }
 /* MAIN */
 .infor{
