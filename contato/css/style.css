@@ -32,3 +32,32 @@
     color: #d400ff;
     box-shadow: #d400ff 0px 0px 5px 0px;
 }
+/* main */
+span#redesociaisTable{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #141414;
+    display: inline-flex;
+    border-radius: 5px;
+}
+#textRedessociais{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    max-width: 300px;
+    padding: 20px;
+    /* colocar uma fonte nesse texto */
+    background-color: #141414;
+    color: #ffffff;
+    border-radius: 2px;
+}
+img.iconRedessociais{
+    /* nãp precisa de termina a altura, ele proprio ajusta isso junto da largura */
+    width: 100px;
+    padding: 20px;
+    box-shadow: 1px 4px 1px 0px #d400ff;
+}
