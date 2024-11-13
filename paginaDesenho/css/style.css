@@ -12,8 +12,7 @@
 body {
     background: url("../assents/img/jpg/49fa8c39c9d8d5b528e098578bc3fddff28478c3_high.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
+    background-size: auto;
 }
 
 #headerNav {
