@@ -5,14 +5,18 @@ body{
     background-image: url("../assents/jpeg/floresta-roxa-de-fantasia-com-um-caminho-no-meio_900706-10053-transformed.jpeg");
     background-repeat: no-repeat;
     background-position-x: center;
-    background-size: cover;
+    background-size: auto;
+    background-color: #000000;
+
 }
 /* MAIN */
 .infor{
     position: relative;
-    margin-left: 50%;
-    margin-top: 15%;
+    /* tenho que ageitar a posição */
+    left: 50%;
     transform: translateX(-50%);
+    top: 20%;
+    transform: translateY(-50%);
     padding: 30px;
     backdrop-filter: blur(100px);
     max-width: 200px;
@@ -48,13 +52,9 @@ body{
 .inforLogin:hover{
     border: none;
 }
-@media (width: 853px), (height:1280){
+@media (max-width: 853px), (max-height:1280){
     .infor{
-        position: fixed;
-        top: 20%;
-        transform: translateY(-20%);
-        left: -20%;
-        transform: translateX(20%);
+       
     }
 }
 
