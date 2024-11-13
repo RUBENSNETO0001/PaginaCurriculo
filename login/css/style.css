@@ -11,12 +11,10 @@ body{
 }
 /* MAIN */
 .infor{
-    position: relative;
+    position: absolute;
     /* tenho que ageitar a posição */
     left: 50%;
     transform: translateX(-50%);
-    top: 20%;
-    transform: translateY(-50%);
     padding: 30px;
     backdrop-filter: blur(100px);
     max-width: 200px;
@@ -25,6 +23,7 @@ body{
     text-align: center;
     border-radius: 30px;
 }
+/* modifica esses botoes ai */
 #btn{
     width: 200px;
     position: relative;
@@ -52,11 +51,7 @@ body{
 .inforLogin:hover{
     border: none;
 }
-@media (max-width: 853px), (max-height:1280){
-    .infor{
-       
-    }
-}
+/* não vou usar o @media */
 
 /* FOOTER */
 .footer{

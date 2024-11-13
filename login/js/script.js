@@ -5,7 +5,7 @@ function entrar() {
     let senha = document.getElementById("senha").value;
 
         if (chavedeEntrada === "user" && senha === "1234") {
-            window.location.href = "../att_01/index.html";
+            window.location.href = "../home/index.html";
         }
         else if(chavedeEntrada == "" || senha == ""){
             alert("Verifique os campos não estão vazios");
