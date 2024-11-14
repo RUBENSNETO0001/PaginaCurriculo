@@ -10,9 +10,11 @@
 * {
     margin: 0;
 }
-body{
+
+body {
     background-color: #000000;
 }
+
 /*header*/
 .header {
     display: flex;
@@ -35,16 +37,16 @@ body{
 #imagemLogo {
     position: relative;
     top: -15px;
-    width: 80px;
-    height: 60px;
+    max-width: 80px;
+    max-height: 60px;
     border-radius: 20px;
 }
 
-.linkspags{
+.linkspags {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-   transition: 2s;
+    transition: 2s;
 }
 
 .link {
@@ -61,25 +63,29 @@ body{
     flex: 4;
     font-size: 20px;
 }
-@media(max-width: 907px){
-    .linkspags{
+
+@media(max-width: 907px) {
+    .linkspags {
         position: absolute;
         left: 70%;
-        
+
     }
 }
-@media(max-width: 675px){
-    .linkspags{
-        opacity:0%;
+
+@media(max-width: 675px) {
+    .linkspags {
+        opacity: 0%;
     }
 }
+
 /*header*/
 /*main*/
 #imagemTransicao {
     width: 100%;
     height: 100vh;
 }
-.autor{
+
+.autor {
     background-color: #000000;
     max-width: 900px;
     position: absolute;
@@ -89,30 +95,36 @@ body{
     border-radius: 30px;
     transition: 2s;
 }
-.autor:hover{
-   box-shadow: 0px 0px 10px 1px #d400ff;
+
+.autor:hover {
+    box-shadow: 0px 0px 10px 1px #d400ff;
 }
-#imgAutor{
+
+#imgAutor {
     width: 300px;
     padding: 100px;
 }
-.name{
+
+.name {
     color: #ffffff;
     text-align: center;
     position: relative;
     top: -60px;
 }
-#nomeUser_real{
+
+#nomeUser_real {
     font-style: italic;
     color: #ebebeb;
 }
-#nomeUser_real:hover{
+
+#nomeUser_real:hover {
     color: #ffffff;
     text-shadow: 1px 1px 2px #d400ff;
 }
+
 /*modal*/
 /* modal externo */
-.butoes{
+.butoes {
     background-color: #000000;
     position: relative;
     left: 50%;
@@ -126,10 +138,12 @@ body{
     padding-top: 4%;
     transition: 1s;
 }
-.butoes:hover{
+
+.butoes:hover {
     box-shadow: 0px 0px 10px 1px #d400ff;
 }
-.btn{
+
+.btn {
     border: none;
     background-color: #ffffff;
     color: #d400ff;
@@ -140,34 +154,38 @@ body{
     position: relative;
     top: -10px;
 }
-.btn:hover{
-  background-color: #d400ff;
-  color: #ffffff;
-  box-shadow: 0px 0px 12px 1px #d400ff;
+
+.btn:hover {
+    background-color: #d400ff;
+    color: #ffffff;
+    box-shadow: 0px 0px 12px 1px #d400ff;
 }
+
 /* alterar a proporssão */
-@media(max-width: 505px){
-    .btn{
+@media(max-width: 505px) {
+    .btn {
         position: relative;
         margin-left: 19%;
         transform: translateX(-21%);
     }
 }
-@media(max-width: 435px){
-    .btn{
+
+@media(max-width: 435px) {
+    .btn {
         position: relative;
         margin-left: 50%;
         transform: translateX(-50%);
     }
 }
-@media(max-width: 418px){
-   #imagemTransicao{
-    width: 126%;
-   }
+
+@media(max-width: 418px) {
+    #imagemTransicao {
+        width: 126%;
+    }
 }
 
 /* modal de fora  */
-.modal{
+.modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -183,61 +201,71 @@ body{
     background-size: cover;
     backdrop-filter: blur(30px);
 }
+
 /* modal interno */
 /* modal de dentro */
-.conteinerModal{
+.conteinerModal {
     color: #ffffff;
     margin: auto;
     padding: 20px;
-    box-shadow:  inset 0px 0px 27px 15px #d400ff;
+    box-shadow: inset 0px 0px 27px 15px #d400ff;
     max-width: 80%;
     border-radius: 10px;
 }
-.conteinerModalMain{
+
+.conteinerModalMain {
     position: relative;
     top: 20px;
     color: #ffffff;
     margin: auto;
     padding: 20px;
-    box-shadow:  inset 0px 0px 27px 15px #d400ff;
+    box-shadow: inset 0px 0px 27px 15px #d400ff;
     max-width: 80%;
     border-radius: 10px;
 }
+
 /*melhorar o "X" é deixa com uma animaçãozinha de leves pai*/
-.fechar{
+.fechar {
     color: #d400ff;
     float: right;
     font-size: 30px;
     transition: 1s;
 }
-.fechar:focus, .fechar:hover{
+
+.fechar:focus,
+.fechar:hover {
     color: #ffffff;
     text-shadow: 1px 1px 1px #d400ff;
     cursor: pointer;
 }
+
 /* texto modal */
-.texto_modal{
+.texto_modal {
     font-family: fontModel;
 }
+
 /* img modal*/
-.textmodal_desenho{
+.textmodal_desenho {
     text-align: center;
     font-size: 30px;
 }
-.link_modal{
+
+.link_modal {
     text-decoration: none;
     color: #ffffff;
     font-family: fontlostDesenho;
 }
+
 /*modal*/
 /*main*
 /* footer */
-.footer{
+.footer {
     color: #ffffff;
     display: flex;
     justify-content: center;
 }
-#textFooter{
+
+#textFooter {
     position: relative;
     top: -9vh;
 }
