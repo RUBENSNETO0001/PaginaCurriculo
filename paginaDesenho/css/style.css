@@ -1,21 +1,24 @@
+/* style font */
 @font-face {
     font-family: 'fontartifika';
     src: url("../assents/fonts/Artifika/Artifika-Regular.ttf");
     font-family: 'fontCosmicDream';
     src: url("../assents/fonts/satine/Satine.ttf");
 }
-
+/* style font */
+/* comandos da pag */
 * {
     margin: 0;
 }
 
 body {
-    background: url("../assents/img/jpg/49fa8c39c9d8d5b528e098578bc3fddff28478c3_high.png");
+    /* background: url("../assents/img/jpg/49fa8c39c9d8d5b528e098578bc3fddff28478c3_high.png");
     background-repeat: no-repeat;
     /* comando size aumenta ne mais o comando calc vai coloca tanto somar 2 proporssoes e aplicala na hora e o auto para ser auto-matico kkkk piada de merda */
-    background-size: calc(0px + 777%) auto;
+    /* background-size: calc(0px + 777%) auto; */
 }
-
+/* comandos da pag */
+/* header */
 #headerNav {
     display: flex;
     align-items: center;
@@ -47,6 +50,7 @@ body {
     color: #d400ff;
     box-shadow: #d400ff 0px 0px 5px 0px;
 }
+/* header */
 
 /* main */
 .imgDesenho {
@@ -69,7 +73,6 @@ body {
     display: block;
 }
 
-
 .main {
     box-shadow: inset 0px 0px 27px 15px #d400ff;
     backdrop-filter: blur(30px);
@@ -91,14 +94,17 @@ body {
     font-family: 'fontartifika';
 }
 
-@media (max-width: 777px) {
+@media (max-width: 767px) {
     .main {
         box-shadow: inset 0px 0px 27px 15px #d400ff;
         position: absolute;
         margin-left: 50%;
         transform: translateX(-50%);
         top: 10%;
-        display: flow;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 2s;
     }
 
     .imgDesenho {
@@ -107,6 +113,7 @@ body {
         transform: translateX(-50%);
     }
 }
+/* main */
 
 /* footer */
 .footer {
@@ -124,8 +131,9 @@ body {
     font-family: 'fontCosmicDream';
 }
 
-@media(max-width: 828px) {
+@media(max-width:539px) {
     .footer {
-        display: none;
+        width: 200px;
     }
 }
+/* footer */
