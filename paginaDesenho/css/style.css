@@ -12,7 +12,8 @@
 body {
     background: url("../assents/img/jpg/49fa8c39c9d8d5b528e098578bc3fddff28478c3_high.png");
     background-repeat: no-repeat;
-    background-size: auto;
+    /* comando size aumenta ne mais o comando calc vai coloca tanto somar 2 proporssoes e aplicala na hora e o auto para ser auto-matico kkkk piada de merda */
+    background-size: calc(0px + 777%) auto;
 }
 
 #headerNav {
@@ -52,6 +53,22 @@ body {
     max-width: 250px;
     max-height: 300px;
 }
+/* o drop so vai aparecer quando eu colocar o ponteiro em cima so em cima preferi colocar mais de lado */
+.dropd{
+    display: none;
+    position: absolute;
+    font-family: 'fontartifika';
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 3px 19px 0px #d400ff;
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 13px;
+}
+.filho:hover .dropd{
+    display: block;
+}
+
 
 .main {
     box-shadow: inset 0px 0px 27px 15px #d400ff;
