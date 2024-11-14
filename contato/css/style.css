@@ -79,6 +79,7 @@ img.iconRedessociais{
     padding: 20px;
     box-shadow: 1px 4px 1px 0px #0f0f0f;
     border-radius: 30px;
+    transition: 1s;
 }
 img.iconRedessociais:hover{
    background-color: #c5c5c5;
