@@ -2,7 +2,7 @@
     margin: 0;
 }
 body{
-    background-color: #d400ff;
+    background-color: #3a0046;
 }
 /* header */
 #headerNav {
@@ -40,17 +40,17 @@ body{
 /* main */
 /* img */
 #imgPanda{
-    position: absolute;
-    left: 19%;
+    position: relative;
+    left: 20%;
     z-index: 1;
+    max-width: 200px;
 }
 .img{
-    position: static;
-    top: 80%;
-
+    position: relative;
+    top: 90%;
 }
-
 /* img */
+/* linkes  text*/
 span#redesociaisTable{
     position: absolute;
     top: 35%;
@@ -58,6 +58,7 @@ span#redesociaisTable{
     transform: translateX(-60%);
     background-color: #d400ff;
     display: inline-flex;
+    border-radius: 33px;
 }
 #textRedessociais{
     position: relative;
@@ -84,4 +85,5 @@ img.iconRedessociais{
 img.iconRedessociais:hover{
    background-color: #c5c5c5;
 }
+/* linkes */
 /* main */
