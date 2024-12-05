@@ -86,29 +86,35 @@ body {
 
 .autor {
     background-color: #000000;
-    max-width: 900px;
+    max-width: 500px;
+    min-height: 450px;
+    transition: 2s;
     position: relative;
     display: flex;
     border-radius: 30px;
-    transition: 2s;
     flex-direction: column;
     align-items: center;
+    margin-left: 50%;
+    margin-top: 1%;
+    transform: translateX(-50%);
 }
+
 
 .autor:hover {
     box-shadow: 0px 0px 10px 1px #d400ff;
 }
 
 #imgAutor {
-    width: 300px;
-    padding: 100px;
+    max-width: 300px;
+    position: relative;
+    margin-top: 12px;
+    border-radius: 20%;
 }
 
 .name {
     color: #ffffff;
     text-align: center;
     position: relative;
-    
 }
 
 #nomeUser_real {
@@ -131,7 +137,7 @@ body {
     background-color: #000000;
     position: relative;
     left: 50%;
-    top: -120px;
+    top: -102px;
     transform: translateX(-50%);
     padding: 2%;
     padding-left: 5%;
@@ -264,7 +270,10 @@ body {
 /*main*
 /* footer */
 .footer {
-    position: relative;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 101%;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -274,15 +283,15 @@ body {
 
 #textFooter {
     position: relative;
-    top: 75px;
+    display: flex;
+    align-items: center;
 }
-
 /* linkes  text*/
 span#redesociaisTable{
     position: absolute;
-    top: 50%;
-    left: 60%;
-    transform: translateX(-60%);
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: #d400ff;
     display: inline-flex;
     border-radius: 33px;
@@ -291,11 +300,11 @@ span#redesociaisTable{
     position: absolute;
     display: none;
     transition: 2s;
-    top: 50px;
+    top: 26px;
 }
 img.iconRedessociais{
     /* nãp precisa de termina a altura, ele proprio ajusta isso junto da largura */
-    width: 50px;
+    width: 20px;
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 1px 4px 1px 0px #d400ff;
@@ -308,6 +317,9 @@ img.iconRedessociais:hover{
 }
 Footer:hover #contatoAlemDaqui{
     display: block;
+}
+Footer:hover #textFooter{
+    display: none;
 }
 @media(max-width:371px){
     Footer:hover #contatoAlemDaqui{
